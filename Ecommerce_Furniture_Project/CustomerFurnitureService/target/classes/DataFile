@@ -1,0 +1,20 @@
+
+//http://localhost:9001/api/v2/register
+{
+        "emailId": "ajay@gmailcom",
+        "password":"Pass@1234",
+        "customerName": "Ajay",
+        "mobileNo": 987456123
+    }
+
+ //http://localhost:9001/api/v2/user/getAllFurniture
+
+ [
+
+     {
+         "furnitureId": 102,
+         "furnitureName": "Chair",
+         "furniturePrice": "Rs.12000",
+         "furnitureImage": "hjgjkhj"
+     }
+ ]

@@ -1,0 +1,24 @@
+<div class="logo">
+    Login Form
+  </div>
+  <form [formGroup]="login">
+    <mat-error *ngIf="login.hasError('invalidData')">Invalid email or password</mat-error>
+      <mat-form-field appearance="outline">
+        <mat-label>customerEmail</mat-label>
+        <input matInput formControlName="emailId">
+        <mat-error *ngIf="emailId?.hasError('emailId')">
+          Please enter a valid customerName (minimum 3 characters).
+        </mat-error>
+      </mat-form-field>
+    
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput type="password" formControlName="password">
+        <mat-error *ngIf="password?.invalid">
+          Please enter a valid password (minimum 6 characters).
+        </mat-error>
+      </mat-form-field>
+    
+      <button mat-raised-button color="accent" [disabled]="login.invalid" (click)="onSubmit()"> Submit</button>
+   
+    </form>

@@ -1,0 +1,20 @@
+
+<h1>My Cart</h1>
+<mat-card class="example-card" *ngFor="let prod of product">
+    <img mat-card-image src="{{prod.furnitureImage}}" />
+    <mat-card-content>
+      <p>
+        <mat-card-title>{{prod.furnitureName}}</mat-card-title>
+      </p>
+      <p>
+        <mat-card-subtitle> Price: ${{prod.furniturePrice}}</mat-card-subtitle>
+      </p>
+    </mat-card-content>
+  </mat-card>
+  <div class="cart_button">
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle  color="accent" value="bold" (click)="goToProducts()">Back</mat-button-toggle>
+
+      </mat-button-toggle-group>
+</div>
+  

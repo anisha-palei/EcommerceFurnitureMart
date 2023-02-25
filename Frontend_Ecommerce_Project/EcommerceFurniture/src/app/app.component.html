@@ -1,0 +1,17 @@
+<mat-toolbar color="accent">
+  <h1>Furniture Mart</h1>
+    <span class="spacer"></span>
+    <a routerLink="registrationForm" mat-icon-button>
+      <mat-icon>app_registration</mat-icon>
+    </a>
+   
+    <a  mat-icon-button  routerLink="login">
+      <mat-icon>login</mat-icon>
+    </a>
+    <a mat-icon-button (click)="logout()">
+      <mat-icon>logout</mat-icon>
+    </a>
+  </mat-toolbar>
+  
+
+      <router-outlet></router-outlet>

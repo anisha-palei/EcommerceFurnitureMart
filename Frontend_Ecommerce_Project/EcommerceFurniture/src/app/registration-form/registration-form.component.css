@@ -1,0 +1,51 @@
+mat-form-field {
+    margin-right: 40px;
+    width: 300px;
+  
+  }
+  
+form{
+    border: 1px solid white !important;;
+    margin: 2%;
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 25%;
+    
+  }
+
+  .logo {
+    margin-left:2em;
+    font: bold 1.7em ;
+    color:purple;   
+    padding-top:30px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  button {
+    margin-right: 10px;
+    padding: 0 40px; 
+    margin:15px;
+    font-size: large;
+  }
+  
+  .radio-group {
+    display: flex;
+    /* flex-direction: column; */
+    margin: 15px 0;
+    align-items: flex-start;
+  }
+  
+  .radio-button {
+    margin-right: 15px;
+  }
+  
+  mat-form-field {
+    display: block;
+  }
+
+
+
+  .data{
+    display: flex;
+   
+  }

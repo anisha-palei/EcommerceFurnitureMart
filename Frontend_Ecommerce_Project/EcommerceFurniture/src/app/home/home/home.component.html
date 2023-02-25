@@ -1,0 +1,8 @@
+<div>
+  <br>
+<button  color="accent" mat-button mat-raised-button (click)="goToCart()">Your Cart</button>
+</div>
+<br>
+<div class="card-container">
+  <app-product *ngFor="let prod of product" [prod]="prod"></app-product>
+</div>

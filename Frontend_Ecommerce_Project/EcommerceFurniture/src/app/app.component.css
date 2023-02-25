@@ -1,0 +1,11 @@
+.spacer{
+    flex: auto;
+}
+
+h1{
+    font-size: 30px;
+
+}
+mat-toolbar{
+    background-image: url('https://content.jdmagicbox.com/comp/bhubaneshwar/n7/0674px674.x674.220121181453.d3n7/catalogue/-tjgghbvmt7.jpg?clr=5757f');
+}

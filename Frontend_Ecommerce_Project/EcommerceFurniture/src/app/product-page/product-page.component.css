@@ -1,0 +1,39 @@
+.product-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  mat-card{
+    flex-direction: row !important;
+    padding-bottom: 30px;
+  }
+  .product-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    margin-left: 20px;
+    gap: 10px;
+  }
+  
+  img {
+    width: 50%;
+    height: auto;
+  }
+  .price_rating{
+    display: flex;
+  }
+  .product-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .product-rating {
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  mat-button-toggle-group,mat-button-toggle{
+    width: 100%;
+  }
+  

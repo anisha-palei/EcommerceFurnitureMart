@@ -1,0 +1,25 @@
+<div class="product-container">
+    <mat-card *ngIf="product">
+      <img mat-card-image [src]="product.furnitureImage"/>
+      <div class="product-content">
+        <mat-card-header>
+          <mat-card-title>{{ product.furnitureName }}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>{{ product.description }}</p>
+          <div class="price_rating">
+            <p class="product-price">Price: {{ product.furniturePrice }}</p>
+          
+          </div>
+        </mat-card-content>
+      </div>
+    </mat-card>
+</div>
+<div class="cart_button">
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle   color="accent" value="bold" (click)="addToCart(product)">Add to cart</mat-button-toggle>
+        <mat-button-toggle  color="accent" value="bold" (click)="goToCart()">Go ToCart</mat-button-toggle>
+        <mat-button-toggle  color="accent" value="italic"(click)="goToCart()">Go Back</mat-button-toggle>
+      </mat-button-toggle-group>
+</div>
+  
